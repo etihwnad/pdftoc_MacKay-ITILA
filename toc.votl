@@ -1,0 +1,390 @@
+(3) Contents
+(5) Preface
+	(15) 1 Introduciton to Information Theory
+		(15) 1.1 How can we achieve perfect communication over an imperfect, noisy communication channel?
+		(17) 1.2 Error-correcting codes for the binary symmetric channel
+		(26) 1.3 What performance can the best codes achieve?
+		(27) 1.4 Summary
+		(28) Further exercises
+		(28) Solutions
+	(34) 2 Probability, Entropy, and Inference
+		(34) 2.1 Probabilities and ensembles
+		(37) 2.2 The meaning of probability
+		(39) 2.3 Forward probabilities and inverse probabilities
+		(44) 2.4 Definition of entropy and related functions
+		(45) 2.5 Decomposability of the entropy
+		(46) 2.6 Gibbs inequality
+		(47) 2.7 Jensens inequality for convex functions
+		(48) 2.8 Exercises
+		(50) 2.9 Further exercises
+		(52) 2.10 Solutions
+	(59) 3 More about Inference
+		(59) About Chapter 3
+		(60) 3.1 A first inference problem
+		(63) 3.2 The bent coin
+		(64) 3.3 The bent coin and model comparison
+		(67) 3.4 An example of legal evidence
+		(69) 3.5 Exercises
+		(71) Solutions
+(77) I- Data Compression
+	(78) 4 The Source Coding Theorem
+		(78) About Chapter 4
+		(79) 4.1 How to measure the information content of a random variable?
+		(85) 4.2 Data compression
+		(86) 4.3 Information content defined in terms of lossy compression
+		(90) 4.4 Typicality
+		(93) 4.5 Proofs
+		(95) 4.6 Comments
+		(96) 4.7 Exercises
+		(98) 4.8 Solutions
+	(102) 5 Symbol Codes	
+		(102) About Chapter 5
+		(103) Introduction
+		(104) 5.1 Symbol codes
+		(106) 5.2 What limit is imposed by unique decodeability?
+		(109) 5.3 What’s the most compression that we can hope for?
+		(110) 5.4 How much can we compress?
+		(110) 5.5 Optimal source coding with symbol codes: Huffman coding
+		(112) 5.6 Disadvantages of the Huffman code
+		(114) 5.7 Summary
+		(114) 5.8 Exercises
+		(116) 5.9 Solutions
+	(121) 6 Stream Codes
+		(121) About Chapter 6
+		(122) 6.1 The guessing game
+		(123) 6.2 Arithmetic codes
+		(130) 6.3 Further applications of arithmetic coding
+		(131) 6.4 Lempel–Ziv coding
+		(133) 6.5 Demonstration
+		(134) 6.6 Summary
+		(135) 6.7 Exercises on stream codes
+		(136) 6.8 Further exercises on data compression
+		(139) 6.9 Solutions
+	(144) 7 Codes for Integers
+(149) II- Noisy-Channel Coding
+	(150) 8 Dependent Random Variables
+		(150) 8.1 More about entropy
+		(152) 8.2 Exercises
+		(153) 8.3 Further exercises
+		(154) 8.4 Solutions
+	(157) 9 Communication over a Noisy Channel
+		(157) About Chapter 9
+		(158) 9.1 The big picture
+		(159) 9.2 Review of probability and information
+		(159) 9.3 Noisy channels
+		(160) 9.4 Inferring the input given the output
+		(161) 9.5 Information conveyed by a channel
+		(163) 9.6 The noisy-channel coding theorem
+		(165) 9.7 Intuitive preview of proof
+		(167) 9.8 Further exercises
+		(169) 9.9 Solutions
+	(173) 10 The Noisy-Channel Coding Theorem
+		(173) About Chapter 10
+		(174) 10.1 The theorem
+		(174) 10.2 Jointly-typical sequences
+		(176) 10.3 Proof of the noisy-channel coding theorem
+		(179) 10.4 Communication (with errors) above capacity
+		(180) 10.5 The non-achievable region (part 3 of the theorem)
+		(181) 10.6 Computing capacity
+		(183) 10.7 Other coding theorems
+		(184) 10.8 Noisy-channel coding theorems and coding practice
+		(184) 10.9 Further exercises
+		(185) 10.10 Solutions
+	(188) 11 Error-Correcting Codes and Real Channels
+		(188) About Chapter 11
+		(189) 11.1 The Gaussian channel
+		(191) 11.2 Inferring the input to a real channel
+		(191) 11.3 Capacity of Gaussian channel
+		(195) 11.4 What are the capabilities of practical error-correcting codes?
+		(198) 11.5 The state of the art
+		(199) 11.6 Summary
+		(199) 11.7 Nonlinear codes
+		(199) 11.8 Errors other than noise
+		(200) 11.9 Exercises
+		(201) 11.10 Solutions
+(203) III- Further Topics in Information Theory
+	(204) 12 Hash Codes: Codes for Efficient Information Retrieval
+		(204) About Chapter 12
+		(205) 12.1 The information-retrieval problem
+		(207) 12.2 Hash codes
+		(209) 12.3 Collision resolution
+		(210) 12.4 Planning for collisions: a birthday problem
+		(210) 12.5 Other roles for hash codes
+		(213) 12.6 Further exercises
+		(214) 12.7 Solutions
+	(217) 13 Binary Codes
+		(217) About Chapter 13
+		(218) 13.1 Distance properties of a code
+		(218) 13.2 Obsession with distance
+		(220) 13.3 Perfect codes
+		(222) 13.4 Perfectness is unattainable – first proof
+		(223) 13.5 Weight enumerator function of random linear codes
+		(225) 13.6 Berlekamps bats
+		(226) 13.7 Concatenation of Hamming codes
+		(227) 13.8 Distance isnt everything
+		(228) 13.9 The union bound
+		(228) 13.10 Dual codes
+		(231) 13.11 Generalizing perfectness to other channels
+		(232) 13.12 Summary
+		(232) 12.13 Further exercises
+		(235) Solutions
+	(240) 14 Very Good Linear Codes Exist
+		(240) About Chapter 14
+		(241) 14.1 A simultaneous proof of the source coding and noisy-channel coding theorems
+		(243) 14.2 Data compression by linear hash codes
+	(245) 15 Further Exercises on Information Theory
+		(251) Solutions
+	(253) 16 Message Passing
+		(253) 16.1 Counting
+		(256) 16.2 Path-counting
+		(257) 16.3 Finding the lowest-cost path
+		(258) 16.4 Summary and related ideas
+		(258) 16.5 Further exercises
+		(259) 16.6 Solutions
+	(260) 17 Communication over Constrained Noiseless Channels
+		(260) 17.1 Three examples of constrained binary channels
+		(262) 17.2 The capacity of a constrained noiseless channel
+		(263) 17.3 Counting the number of possible messages
+		(266) 17.4 Back to our model channels
+		(266) 17.5 Practical communication over constrained channels
+		(268) 17.6 Variable symbol durations
+		(269) 17.7 Solutions
+	(272) 18 Crosswords and Codebreaking
+		(272) 18.1 Crosswords
+		(274) 18.2 Simple language models
+		(276) 18.3 Units of information content
+		(277) 18.4 A taste of Banburismus
+		(280) 18.5 Exercises
+	(281) 19 Why have Sex?  Information Acquisition and Evolution
+		(281) Introduction
+		(282) 19.1 The model
+		(283) 19.2 Rate of increase of fitness
+		(287) 19.3 The maximal tolerable mutation rate
+		(288) 19.4 Fitness increase and information acquisition
+		(289) 19.5 Discussion
+		(291) 19.6 Further exercises
+		(292) 19.7 Solutions
+(293) IV- Probabilities and Inference
+	(294) About Part IV
+	(296) 20 An Example Inference Task: Clustering
+		(297) 20.1 K-means clustering
+		(301) 20.2 Soft K-means clustering
+		(301) 20.3 Conclusion
+		(302) 20.4 Exercises
+		(303) 20.5 Solutions
+	(305) 21 Exact Inference by Complete Enumeration
+		(305) 21.1 The burglar alarm
+		(307) 21.2 Exact inference for continuous hypothesis spaces
+	(312) 22 Maximum Likelihood and Clustering
+		(312) 22.1 Maximum likelihood for one Gaussian
+		(314) 22.2 Maximum likelihood for a mixture of Gaussians
+		(315) 22.3 Enhancements to soft K-means
+		(317) 22.4 A fatal flaw of maximum likelihood
+		(318) 22.5 Further exercises
+		(322) 22.6 Solutions
+	(323) 23 Useful Probability Distributions
+		(323) 23.1 Distributions over integers
+		(324) 23.2 Distributions over unbounded real numbers
+		(325) 23.3 Distributions over positive real numbers
+		(327) 23.4 Distributions over periodic variables
+		(328) 23.5 Distributions over probabilities
+		(330) 23.6 Further exercises
+	(331) 24 Exact Marginalization
+		(331) 24.1 Inferring the mean and variance of a Gaussian distribution
+		(335) 24.2 Exercises
+		(335) 24.3 Solutions
+	(336) 25 Exact Marginalization in Trellises
+		(336) 25.1 Decoding problems
+		(338) 25.2 Codes and trellises
+		(339) 25.3 Solving the decoding problems on a trellis
+		(343) 25.4 More on trellises
+		(345) 25.5 Solutions
+	(346) 26 Exact Marginalization in Graphs
+		(346) 26.1 The general problem
+		(348) 26.2 The sum–product algorithm
+		(351) 26.3 The min–sum algorithm
+		(352) 26.4 The junction tree algorithm
+		(352) 26.5 Exercises
+	(353) 27 Laplaces Method
+		(354) 27.1 Exercises
+	(355) 28 Model Comparison and Occams Razor
+		(355) 28.1 Occams razor
+		(363) 28.2 Example
+		(364) 28.3 Minimum description length (MDL)
+		(366) 28.4 Exercises
+	(368) 29 Monte Carlo Methods
+		(368) About Chapter 29
+		(369) 29.1 The problems to be solved
+		(373) 29.2 Importance sampling
+		(376) 29.3 Rejection sampling
+		(377) 29.4 The Metropolis–Hastings method
+		(382) 29.5 Gibbs sampling
+		(384) 29.6 Terminology for Markov chain Monte Carlo methods
+		(386) 29.7 Slice sampling
+		(391) 29.8 Practicalities
+		(391) 29.9 Further practical issues
+		(393) 29.10 Summary
+		(394) 29.11 Exercises
+		(396) 29.12 Solutions
+	(399) 30 Efficient Monte Carlo Methods
+		(399) 30.1 Hamiltonian Monte Carlo
+		(402) 30.2 Overrelaxation
+		(404) 30.3 Simulated annealing
+		(404) 30.4 Skillings multi-state leapfrog method
+		(406) 30.5 Monte Carlo algorithms as communication channels
+		(407) 30.6 Multi-state methods
+		(409) 30.7 Methods that do not necessarily help
+		(409) 30.8 Further exercises
+		(410) 30.9 Solutions
+	(411) 31 Ising Models
+		(411) About Chapter 31
+		(412) Introduction
+		(414) 31.1 Ising models – Monte Carlo simulation
+		(419) 31.2 Direct computation of partition function of Ising models
+		(424) 31.3 Exercises
+	(425) 32 Exact Monte Carlo Sampling
+		(425) 32.1 The problem with Monte Carlo methods
+		(425) 32.2 Exact sampling concepts
+		(430) 32.3 Exact sampling from interesting distributions
+		(432) 32.4 Exercises
+		(433) 32.5 Solutions
+	(434) 33 Variational Methods
+		(434) 33.1 Variational free energy minimization
+		(436) 33.2 Variational free energy minimization for spin systems
+		(438) 33.3 Example: mean field theory for the ferromagnetic Ising model
+		(439) 33.4 Variational methods in inference and data modelling
+		(441) 33.5 The case of an unknown Gaussian: approximating the posterior distrubution of mu and sigma
+		(443) 33.6 Interlude
+		(444) 33.7 K-means clustering and the expectation–maximization algorithm as a variational method
+		(445) 33.8 Variational methods other than free energy minimization
+		(446) 33.9 Further exercises
+		(447) 33.10 Solutions
+	(449) 34 Independent Component Analysis and Latent Variable Modelling
+		(449) 34.1 Latent variable models
+		(449) 34.2 The generative model for independent component analysis
+		(452) 34.3 A covariant, simpler, and faster learning algorithm
+		(456) 34.4 Exercises
+	(457) 35 Random Inference Topics
+		(457) 35.1 What do you know if you are ignorant?
+		(458) 35.2 The Luria–Delbruck distribution
+		(459) 35.3 Inferring causation
+		(460) 35.4 Further exercises
+		(461) 35.5 Solutions
+	(463) 36 Decision Theory
+		(463) 36.1 Rational prospecting
+		(465) 36.2 Further reading
+		(466) 36.3 Further exercises
+	(469) 37 Bayesian Inference and Sampling Theory
+		(469) Introduction
+		(470) 37.1 A medical example
+		(474) 37.2 Dependence of p-values on irrelevant information
+		(476) 37.3 Confidence intervals
+		(477) 37.4 Some compromise positions
+		(478) 37.5 Further exercises
+(479) V- Neural Networks
+	(480) 38 Introduction to Neural Networks
+		(480) 38.1 Memories
+		(482) 38.2 Terminology
+	(483) 39 The Single Neuron as a Classifier
+		(483) 39.1 The single neuron
+		(484) 39.2 Basic neural network concepts
+		(487) 39.3 Training the single neuron as a binary classifier
+		(491) 39.4 Beyond descent on the error function: regularization
+		(492) 39.5 Further exercises
+	(494) 40 Capacity of a Single Neuron
+		(494) Problems to look at before Chapter 40
+		(495) 40.1 Neural network learning as communication
+		(495) 40.2 The capacity of a single neuron
+		(497) 40.3 Counting threshold functions
+		(502) 40.4 Further exercises
+		(503) 40.5 Solutions
+	(504) 41 Learning as Inference
+		(504) 41.1 Neural network learning as inference
+		(505) 41.2 Illustration for a neuron with two weights
+		(505) 41.3 Beyond optimization: making predictions
+		(508) 41.4 Monte Carlo implementation of a single neuron
+		(513) 41.5 Implementing inference with Gaussian approximations
+		(516) Postscript on Supervised Neural Networks
+	(517) 42 Hopfield Networks
+		(517) 42.1 Hebbian learning
+		(518) 42.2 Definition of the binary Hopfield network
+		(519) 42.3 Definition of the continuous Hopfield network
+		(519) 42.4 Convergence of the Hopfield network
+		(522) 42.5 The associative memory in action
+		(522) 42.6 The continuous-time continuous Hopfield network
+		(524) 42.7 The capacity of the Hopfield network
+		(527) 42.8 Improving on the capacity of the Hebb rule
+		(528) 42.9 Hopfield networks for optimization problems
+		(531) 42.10 Further exercises
+		(532) 42.11 Solutions
+	(534) 43 Boltzmann Machines
+		(534) 43.1 From Hopfield networks to Boltzmann machines
+		(537) 43.2 Boltzmann machine with hidden units
+		(538) 43.3 Exercise
+	(539) 44 Supervised Learning in Multilayer Networks
+		(539) 44.1 Multilayer perceptrons
+		(540) 44.2 How a regression network is traditionally trained
+		(541) 44.3 Neural network learning as inference
+		(542) 44.4 Benefits of the Bayesian approach to supervised feedforward neural networks
+		(544) 44.5 Exercises
+	(546) 45 Gaussian Processes
+		(546) About Chapter 45
+		(547) Introduction
+		(548) 45.1 Standard methods for nonlinear regression
+		(552) 45.2 From parametric models to Gaussian processes
+		(554) 45.3 Using a given Gaussian process model in regression
+		(555) 45.4 Examples of covariance functions
+		(557) 45.5 Adaptation of Gaussian process models
+		(559) 45.6 Classification
+		(559) 45.7 Discussion
+	(561) 46 Deconvolution
+		(561) 46.1 Traditional image reconstruction methods
+		(564) 46.2 Supervised neural networks for image deconvolution
+		(564) 46.3 Deconvolution in humans
+		(566) 46.4 Exercises
+(567) VI- Sparse Graph Codes
+	(568) About Part VI
+	(569) 47 Low-Density Parity-Check Codes
+		(569) 47.1 Theoretical properties
+		(569) 47.2 Practical decoding
+		(571) 47.3 Decoding with the sum–product algorithm
+		(574) 47.4 Pictorial demonstration of Gallager codes
+		(578) 47.5 Density evolution
+		(579) 47.6 Improving Gallager codes
+		(581) 47.7 Fast encoding of low-density parity-check codes
+		(583) 47.8 Further reading
+		(584) 47.9 Exercises
+		(584) 47.10 Solutions
+	(586) 48 Convolutional Codes and Turbo Codes
+		(586) 48.1 Introduction to convolutional codes
+		(586) 48.2 Linear-feedback shift-registers
+		(590) 48.3 Decoding convolutional codes
+		(591) 48.4 Turbo codes
+		(593) 48.5 Parity-check matrices of convolutional codes and turbo codes
+		(593) 48.6 Solutions
+	(594) 49 Repeat-Accumulate Codes
+		(594) 49.1 The encoder
+		(594) 49.2 Graph
+		(595) 49.3 Decoding
+		(596) 49.4 Empirical distribution of decoding times
+		(596) 49.5 Generalized parity-check matrices
+	(600) 50 Digital Fountain Codes
+		(600) About Chapter 50
+		(601) Introduction
+		(602) 50.1 A digital fountains encoder
+		(603) 50.2 The decoder
+		(603) 50.3 Designing the degree distribution
+		(605) 50.4 Applications
+		(606) 50.5 Further exercises
+		(608) 50.6 Summary of sparse-graph codes
+		(608) 50.7 Conclusion
+(609) VII- Appendices
+	(610) A- Notation
+	(613) B- Some Physics
+	(617) C- Some Mathematics
+		(617) C.1 Finite field theory
+		(618) C.2 Eigenvectors and eigenvalues
+		(620) C.3 Perturbation theory
+		(624) C.4 Some numbers
+	(625) Bibliography
+	(632) Index
