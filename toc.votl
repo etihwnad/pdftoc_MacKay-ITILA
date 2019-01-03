@@ -1,6 +1,8 @@
 (3) Contents
 (5) Preface
-	(15) 1 Introduciton to Information Theory
+(13) Information Theory
+	(13) 1 Introduciton to Information Theory
+		(13) About Chapter 1
 		(15) 1.1 How can we achieve perfect communication over an imperfect, noisy communication channel?
 		(17) 1.2 Error-correcting codes for the binary symmetric channel
 		(26) 1.3 What performance can the best codes achieve?
